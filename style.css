@@ -23,6 +23,29 @@ body {
   padding: 100px 0;
 }
 
+.result-container {
+  max-width: 300px;
+  min-height: 85px;
+  padding: 30px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  color: rgb(72, 126, 176);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 25px;
+  text-align: center;
+  word-break: break-all;
+  letter-spacing: 1px;
+}
+
+.button-container .button {
+  margin-right: 10px;
+}
+
+.button-container .button:last-of-type {
+  margin-right: 0;
+}
+
 .button {
   margin-bottom: 10px;
   padding: 10px 30px;
@@ -33,6 +56,7 @@ body {
   font-size: 15px;
   font-weight: 800;
   line-height: 15px;
+  text-transform: uppercase;
   outline: none;
   cursor: pointer;
 }
@@ -50,17 +74,6 @@ body {
   outline: none;
 }
 
-.result-container {
-  max-width: 300px;
-  min-height: 85px;
-  padding: 30px;
-  border-radius: 5px;
-  background: #FFFFFF;
-  color: rgb(72, 126, 176);
-  font-size: 20px;
-  font-weight: 800;
-  line-height: 25px;
-  text-align: center;
-  word-break: break-all;
-  letter-spacing: 1px;
+.result-box {
+  text-align: left;
 }
